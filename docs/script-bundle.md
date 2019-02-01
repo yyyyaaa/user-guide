@@ -6,15 +6,14 @@ sidebar_label: Adverse script tag
 
 #### The `data-` params and their meaning
 
-| Param               | Value type                     | Meaning                                                                                                  | Example                   |
-|---------------------|--------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------|
-| data-zoneId         | A valid ID                     | The id of a zone, `zoneId` should be already available when you copy the script tag                      | data-zoneId="12ik3b"      |
-| data-zone-id        | A valid ID                     | Alias of `data-zoneId`                                                                                   | data-zone-id="12ik3b"     |
-| data-geo-state      | 2-char geo code (CA, AL...etc) | A geological state used in adgroup targeting.                                                            | data-geo-state="CA"       |
-| data-ad-feed-count  | Integer Number                 | The number of ads rendered in a publisher's ad feed.                                                     | data-ad-feed-count="3"    |
-| data-score-key      |          String                      |A special key used to optimize traffic, different keys will make the zone order differently depending on the source.|         data-score-key="A"                  |
-| data-zone-load-cost | Real Number                 |                                                                                                          |                 data-zone-load-cost="0.123"          |
-| data-manual-render  | true/false (default)           | Whethere you want the script tag to render automatically or you want to control where to render the ads. | data-manual-render="true" |
+| Param               | Value type                     | Meaning                                                                                                              | Example                     |
+|---------------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| data-zone-id        | A valid ID                     | The id of a zone, `zoneId` should be already available when you copy the script tag                                  | data-zoneId="12ik3b"        |
+| data-geo-state      | 2-char geo code (CA, AL...etc) | A geological state used in adgroup targeting.                                                                        | data-geo-state="CA"         |
+| data-ad-feed-count  | Integer Number                 | The number of ads rendered in a publisher's ad feed.                                                                 | data-ad-feed-count="3"      |
+| data-score-key      | String                         | A special key used to optimize traffic, different keys will make the zone order differently depending on the source. | data-score-key="A"          |
+| data-zone-load-cost | Real Number                    |                                                                                                                      | data-zone-load-cost="0.123" |
+| data-manual-render  | true/false (default)           | Whethere you want the script tag to render automatically or you want to control where to render the ads.             | data-manual-render="true"   |
 
 #### Manual render ads with `window.adverse`
 
