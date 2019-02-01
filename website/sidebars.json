@@ -1,5 +1,10 @@
 {
   "docs": {
-    "Guides": ["script-bundle", "templates","creative-target-url"]
+    "Guides": [
+      "script-bundle",
+      "templates",
+      "creative-target-url",
+      "pixels"
+    ]
   }
 }
